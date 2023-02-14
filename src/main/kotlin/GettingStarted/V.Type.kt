@@ -7,7 +7,7 @@ fun main() {
      * Number(Byte,Short,Int,Long,Double,Float) & Unsigned Types
      *
      * Characters , Booleans , Arrays , String , Decimals [0-9]
-     * Octals [0-7] Kotlin tarafından desteklenmiyor
+     * Octal [0-7] Kotlin tarafından desteklenmiyor
      * Binary [0-1]
      *
      * Hexadecimals [0-9A-Fa-f]
