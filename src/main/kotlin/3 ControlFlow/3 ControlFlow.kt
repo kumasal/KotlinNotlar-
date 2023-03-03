@@ -1,4 +1,4 @@
-package ControlFlow
+package `3 ControlFlow`
 
 fun main() {
 
@@ -67,6 +67,17 @@ fun main() {
     } else {
         print(" Kolay Gelsin ")
     }
+
+    // true && true = true
+    // true && false = false
+    // false && true = false
+    // false && false = false
+
+    // true || true = true
+    // true || false = true
+    // false || true = true
+    // false || false = false
+
 
     //--------------------------------------------------------------------------------------------------//
 

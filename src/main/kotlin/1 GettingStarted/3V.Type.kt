@@ -1,4 +1,4 @@
-package GettingStarted
+package `1 GettingStarted`
 
 fun main() {
     /**

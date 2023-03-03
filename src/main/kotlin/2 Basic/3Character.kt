@@ -1,4 +1,4 @@
-package Basic
+package `2 Basic`
 
 fun main() {
 

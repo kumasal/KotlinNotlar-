@@ -1,6 +1,4 @@
-package Basic
-
-import java.util.SplittableRandom
+package `2 Basic`
 
 fun main() {
 
