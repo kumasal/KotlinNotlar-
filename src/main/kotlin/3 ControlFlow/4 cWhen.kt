@@ -35,6 +35,8 @@ fun main() {
 
     //--------------------------------------------------------------------------------------------------//
 
+    // Cirkin Kod
+
     /**
      *
      *  when'in yanina karsilastirma ifadesi eklemeden, bunu case'lerin yanina da ekleyebilirsiniz.
@@ -44,8 +46,13 @@ fun main() {
 
 
 
+    //--------------------------------------------------------------------------------------------------//
 
-
+    val carCode = readln()!!
+    when(carCode.uppercase(Locale.getDefault())){
+        "BMW" -> println("Bmws")
+        "MC"  -> println("Mercedes-Benz")
+    }
 
 
 
