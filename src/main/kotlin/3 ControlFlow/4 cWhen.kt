@@ -50,7 +50,7 @@ fun main() {
 
     val carCode = readln()!!
     when(carCode.uppercase(Locale.getDefault())){
-        "BMW" -> println("Bmws")
+        "BMW" -> println("Bmw")
         "MC"  -> println("Mercedes-Benz")
     }
 
