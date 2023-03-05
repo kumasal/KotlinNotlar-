@@ -59,13 +59,13 @@ fun main() {
      *
      */
 
-    var code2:String = if (countryCode.toLowerCase() == "tr" || countryCode.toLowerCase() == "az"){
+    var code2: String = if (countryCode.toLowerCase() == "tr" || countryCode.toLowerCase() == "az") {
         println("Turk V")
         "90"
-    }else if (countryCode.toLowerCase() == "ar"){
+    } else if (countryCode.toLowerCase() == "ar") {
         println("Arab V")
         "80"
-    }else {
+    } else {
         "70"
     }
 
@@ -75,10 +75,40 @@ fun main() {
     val arCode = "ar"
     val frCode = "fr"
     val ruCode = "ru"
-    when(countryCode.toLowerCase()){
+    when (countryCode.toLowerCase()) {
         trCode, "az" -> println("TC V")
         arCode -> println("Arab V")
 
     }
+
+    //--------------------------------------------------------------------------------------------------//
+
+    // is , !is ile bir class'in referansi olup olınmadiğini kontrolu yapabilir.
+    val phoneNumber = 5894685135L
+    when (phoneNumber) {
+        is Long -> {
+            println("Long Value")
+        }
+
+        !is Long -> {
+            println("Long Value Değil")
+        }
+    }
+
+
+    //  rang'leri in !in seklinde kontrolu yapilabilir.
+    val number = 3
+    when (number) {
+        in 0..10 -> { //in
+            println("Long Value")
+        }
+        in 11..20 -> {
+            println("Long Value")
+        }
+        !in 11..20 -> {
+            println("Long Value Değil")
+        }
+    }
+
 
 }
